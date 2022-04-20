@@ -11,9 +11,8 @@
 // Output: 78
 //  
 
-const findMax = (arr)=>{
-    let max;
-    // write your code here
+const findMax = (arr) => {
+    let max = arr.reduce((a, b) => a > b ? a : b);
     return max;
 }
 // -------------------------------------------------------------------------------------------------------
@@ -29,10 +28,10 @@ const findMax = (arr)=>{
 // Output: 81
 //  
 
-const sumNums = (arr)=>{
-    let sum;
-    // write your code here
-    return sum;
+const sumNums = (arr) => {
+    let sum = arr.filter(a => Number.isInteger(e))
+    sum = arr.reduce((a, b) => a + b)
+    return sum
 }
 // -------------------------------------------------------------------------------------------------------
 
@@ -46,9 +45,9 @@ const sumNums = (arr)=>{
 // Input: ['C#', 'JS', 'Ruby','Python'] 
 // Output: ['Python','Ruby','JS','C#']
 
-const reverseArray = (arr)=>{
+const reverseArray = (arr) => {
     // write your code here
 }
 // -------------------------------------------------------------------------------------------------------
 
-module.exports = {findMax , sumNums, reverseArray};
+module.exports = { findMax, sumNums, reverseArray };
