@@ -29,8 +29,8 @@ const findMax = (arr) => {
 //  
 
 const sumNums = (arr) => {
-    let sum = arr.filter(a => Number.isInteger(e))
-    sum = arr.reduce((a, b) => a + b)
+    let sum = arr.filter(a => Number.isInteger(a))
+    sum = sum.reduce((a, b) => a + b)
     return sum
 }
 // -------------------------------------------------------------------------------------------------------
