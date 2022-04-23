@@ -6,7 +6,7 @@ const {
   cvFormatter,
   applicationsStatics,
   classesAvg,
-} = require.skip("../code-challenges/challenges-07");
+} = required("../code-challenges/challenges-07");
 
 const data = {
   schoolName: "Al Farouk",
