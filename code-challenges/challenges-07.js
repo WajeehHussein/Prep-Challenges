@@ -20,10 +20,11 @@
 //  1- The text template is "my name is ** ** I am ** YO, and I love **."
 //  2- The first letters of the firstName and lastName should be capital letter
 
+const objLat = (obj) => {
+    return (`my name is${obj.firstName.toChartAt().upperCase()} ${obj.lastName.toChartAt().upperCase()} I am ${obj.age}, and I love ${obj.hobby}`)
+};
 
-obj.prototype.information = function () {
-    console.log(`my name is${obj.firstName.toChartAt().upperCase()} ${obj.lastName.toChartAt().upperCase()} I am ${obj.age}, and I love ${obj.hobby}`)
-}
+
 
 // -------------------------------------------------------------------------------------------------------
 
