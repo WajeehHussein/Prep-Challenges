@@ -44,8 +44,8 @@ const roundDecimals = (arr) => {
     let result = [];
     arr.forEach(element => {
         result.push(Math.round(element))
-        return result;
     });
+    return result;
 }
 // -------------------------------------------------------------------------------------------------------
 
