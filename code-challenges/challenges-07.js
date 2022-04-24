@@ -21,7 +21,7 @@
 //  2- The first letters of the firstName and lastName should be capital letter
 
 const objLat = (obj) => {
-    return (`my name is${obj.firstName.toChartAt().upperCase()} ${obj.lastName.toChartAt().upperCase()} I am ${obj.age}, and I love ${obj.hobby}`)
+    return (`my name is${Object.values(obj)[0].toChartAt().upperCase()} ${Object.values(obj)[1].toChartAt().upperCase()} I am ${obj.age}, and I love ${obj.hobby}`)
 };
 
 
