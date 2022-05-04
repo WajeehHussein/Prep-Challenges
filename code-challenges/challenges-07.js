@@ -87,8 +87,22 @@ const cvFormatter = (arr) => {
         if (obj.yearsOfExperience > 1) {
             result.push(obj)
         }
-        return result
+        if (obj.lastName == null) {
+            obj.fullName = obj.firstName
+            delete obj.firstName
+            delete obj.lastName
+            delete obj.yearsOfExperience
+
+
+        } else {
+            obj.fullName = `${obj.firstName} ${obj.lastName}`
+            delete obj.firstName
+            delete obj.lastName
+            delete obj.yearsOfExperience
+        }
+
     })
+    return result
 };
 
 // 3) ---------------------
