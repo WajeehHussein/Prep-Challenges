@@ -80,7 +80,6 @@ const objLat = (obj) => {
 //  Note that:
 //  1- Full name is first name + last name
 //  2- If one of the names is null dont add it to the full name
-
 // ------------------------
 const cvFormatter = (arr) => {
     let result = []
