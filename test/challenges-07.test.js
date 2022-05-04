@@ -135,7 +135,7 @@ describe('Challenge07', () => {
 })
 
 describe('Challenge07', () => {
-  test.skip('CV-Formatter', () => {
+  test('CV-Formatter', () => {
     let first_Cv_Sample = [{
       firstName: "Jason",
       lastName: "James",

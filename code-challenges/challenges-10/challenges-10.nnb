@@ -24,7 +24,7 @@
         {
             "language": "javascript",
             "source": [
-                "function birthdayCakeCandles(candles) {\n    const arr = candles.filter(value => Math.max(...candles) === value)\n       return arr.length;\n   \n   }"
+                ""
             ],
             "outputs": []
         },
