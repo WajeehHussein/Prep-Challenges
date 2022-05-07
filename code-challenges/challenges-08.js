@@ -95,7 +95,6 @@ const courses = [
 const getInfo = (arr) => {
   let coursesName = [];
   let studentsName = [];
-  // write your code here
 
   return { coursesName, studentsName };
 };
