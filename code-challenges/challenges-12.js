@@ -71,7 +71,11 @@ const oddFiltration = (arr) => {
 //  2- If one of the names is null dont add it to the full name
 
 const cvsFiltration = (arr) => {
-    // write your code here
+    arr.filter((e) => {
+        if (e.LastName != null && e.tech === 'JS' && e.yearsOfExperience > 4) {
+            return arr
+        }
+    })
 }
 // -------------------------------------------------------------------------------------------------------
 
@@ -86,7 +90,13 @@ const cvsFiltration = (arr) => {
 // 
 
 const vowelsFiltration = (arr) => {
-    // write your code here
+    arr.filter(() => {
+        arr.find(e => {
+
+        }
+        )
+    }
+    )
 }
 // -------------------------------------------------------------------------------------------------------
 
