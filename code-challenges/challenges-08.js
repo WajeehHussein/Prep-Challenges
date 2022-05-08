@@ -22,12 +22,16 @@
 //     "Mario Ristrova": 39,
 //     "Sofia firnando": 50,
 // }
-//
+const customerAndAge = (obj) => {
+  return ((`Customer Name :${Object.keys(obj)[0]} , Age :${Object.values(obj)[0]} Customer Name :${Object.keys(obj)[1]} , Age :${Object.values(obj)[1]} Customer Name :${Object.keys(obj)[1]} , Age :${Object.values(obj)[1]}`).split(" C"))
+};
 // Output:
 // ["Customer Name :Romio Joliat , Age :35", "Customer Name :Mario Ristrova , Age :39", ... ]
 
 const customerAndAge = (obj) => {
-  // write your code here
+
+  return ((`Customer Name :${Object.keys(obj)[0]} , Age :${Object.values(obj)[0]} Customer Name :${Object.keys(obj)[1]} , Age :${Object.values(obj)[1]} Customer Name :${Object.keys(obj)[1]} , Age :${Object.values(obj)[1]}`).split(" C"))
+
 };
 // -------------------------------------------------------------------------------------------------------
 
