@@ -39,8 +39,8 @@ const LastWord = (str) => {
 //  Output: "potter"
 
 const LastWord_2 = (str) => {
-    const lastWord = str.split(' ').pop();
-    return lastWord
+    const lastWord_2 = str.split(' ').pop();
+    return lastWord_2
 }
 // -------------------------------------------------------------------------------------------------------
 
