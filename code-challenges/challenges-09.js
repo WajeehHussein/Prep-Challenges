@@ -20,10 +20,12 @@
 
 const arrInc = (arr) => {
     let result = [];
+
     arr.forEach(element => {
         result.push(element + 10)
 
     });
+
     return result;
 }
 // -------------------------------------------------------------------------------------------------------
@@ -41,11 +43,13 @@ const arrInc = (arr) => {
 //  [5, 6, 7, 7]
 // 
 const roundDecimals = (arr) => {
+
     let result = [];
     arr.forEach(element => {
         result.push(Math.round(element))
     });
     return result;
+
 }
 // -------------------------------------------------------------------------------------------------------
 
@@ -114,6 +118,7 @@ const roundDecimals = (arr) => {
 //
 
 const employeesBonus = (arr) => {
+
     let result = [];
     arr.forEach(element => {
         if (Object.values[1](element) === "Production") {
@@ -124,6 +129,7 @@ const employeesBonus = (arr) => {
 
     });
     return result;
+
 }
 // -------------------------------------------------------------------------------------------------------
 
