@@ -24,7 +24,7 @@
         {
             "language": "javascript",
             "source": [
-                "function equalizeArray(arr) {\nlet arr2=[];\nfor(let i=0;arr.length>i;i++){\n    for(let j=1;arr.length>i;i++){\n        if(arr[i]-arr[j] != 0){\n            arr2.push(arr[i])\n        }\n \n    }\n}\n        return arr2.length\n}"
+                "function equalizeArray(arr) {\n    let newArr = new Map();\n    for(let i = 0; i < arr.length; i++){\n        if(newArr.has(arr[i])){\n            newArr.set(arr[i], newArr.get(arr[i]) + 1)\n        }else{\n            newArr.set(arr[i], 1)\n        }\n    }\n \n    let max_newArr = Number.MIN_SAFE_INTEGER;\n    for(let entry of newArr)\n        max_newArr = Math.max(max_newArr, entry[1]);\n\n    return arr.length - max_newArr ;\n}"
             ],
             "outputs": []
         },
